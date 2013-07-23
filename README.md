@@ -1,4 +1,7 @@
+this repo is just some notes and extremely programs I made while using the
+flyswatter with openocd to load and run a program and stop on breakpoints.
 
+```
 # start as root
 openocd -f interface/flyswatter.cfg -f mydragonite.cfg -f init.cfg -c telnet_port 4444
 
@@ -59,3 +62,4 @@ Add /path/to/code/sourcery/bin to your path.
 poll on
 reset_config trst_only combined
 reset_config trst_and_srst combined
+```

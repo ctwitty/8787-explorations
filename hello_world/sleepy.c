@@ -3,9 +3,10 @@ int main()
 {
 	int num=0;
 	while(1) {
-		("test again");
-		printf("Hello World\n");
-		num++;
+		sleep(1);
+		if (num < 30) {
+			num++;
+		}
 	}
 	return 0;
 }
